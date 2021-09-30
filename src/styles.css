@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  --primary-color: #5b21b6;
+  --background-color: #1f2937;
+  --text-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background-color);
+}
+
+nav {
+  background: var(--primary-color);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+ul {
+  display: flex;
+  /* text-decoration: none; */
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.5rem;
+  font-weight: 1000;
+  font-size: 1rem;
+}
+
+.hello {
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
